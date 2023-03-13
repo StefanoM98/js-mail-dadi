@@ -18,8 +18,12 @@ for (let i = 0; i < emails.length; i++) {
     }
 }
 
+let message = "Ci dispiace, ma la tua mail non è inserita nel database e non puoi accedere al servizio. Se vuoi sapere come accedere al servizio, visita la pagina: voglio-accedere-anche-io-al-servizio.com"
+
 if (puoiEntrare === true) {
-    console.log("Ottimo, puoi accedere al servizio");
-} else {
-    console.log("Ci dispiace, ma la tua mail non è inserita nel database e non puoi accedere al servizio. Se vuoi sapere come accedere al servizio, visita la pagina: voglio-accedere-anche-io-al-servizio.com");
+    message = "Ottimo, puoi accedere al servizio";
 }
+
+document.getElementById("title").innerHTML = message
+
+
