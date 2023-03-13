@@ -23,4 +23,3 @@ if (puoiEntrare === true) {
 } else {
     console.log("Ci dispiace, ma la tua mail non è inserita nel database e non puoi accedere al servizio. Se vuoi sapere come accedere al servizio, visita la pagina: voglio-accedere-anche-io-al-servizio.com");
 }
-
